@@ -12,8 +12,8 @@ console.log(x); // * 20
     console.log(x); // * 30
 }
 
-(function logX (){
-    let x = 40 ; 
+(function logX() {
+    let x = 40;
     console.log(x); // * 40
-}()) 
+}())
 // * IIFE (Immediately Invoked Function Expression) is a JavaScript function that runs as soon as it is defined
