@@ -9,5 +9,5 @@ function sum(num1, num2) {
 
 }
 
-sum(10, 5)
-sum(10)(5) //* function carrying
+console.log(sum(10, 5))
+console.log(sum(10)(5)) //* function carrying
