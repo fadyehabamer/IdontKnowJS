@@ -6,3 +6,8 @@ from an inner function.
 In JavaScript,
 closures are created every time a function is created, at function creation time
 */
+
+let name = 'fady'
+(function logName(){
+    console.log(name);
+}())
