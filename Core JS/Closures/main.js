@@ -10,6 +10,12 @@ closures are created every time a function is created, at function creation time
 var name = 'fady'
 
 function logName() {
+    var logNameVariable = 'Log Name : FADY'
+    // * THIS IS CLOSURE
     console.log(name);
+    function logLogName(){
+        console.log(logNameVariable);
+    }
 }
 logName()
+// console.dir(logName)
