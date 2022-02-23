@@ -13,9 +13,10 @@ function logName() {
     var logNameVariable = 'Log Name : FADY'
     // * THIS IS CLOSURE
     console.log(name);
-    function logLogName(){
+    function logLogName() {
         console.log(logNameVariable);
     }
+    logLogName()
 }
 logName()
 // console.dir(logName)
