@@ -22,3 +22,4 @@ function createRobot(name) {
 }
 
 const R1 = createRobot('FADY')
+R1.talk()
