@@ -21,4 +21,4 @@ function createRobot(name) {
     };
 }
 
-createRobot('FADY')
+const R1 = createRobot('FADY')
