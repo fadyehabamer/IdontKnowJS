@@ -10,3 +10,15 @@ but they do not require the use of the ‘this‘ keyword
 for inner values or the use of the ‘new‘ keyword
 when instantiating new objects
 */
+
+function createRobot(name) {
+    return {
+        name: name,
+        talk: function () {
+            console.log('My name is ' 
+            + name + ', the robot.');
+        }
+    };
+}
+
+createRobot('FADY')
