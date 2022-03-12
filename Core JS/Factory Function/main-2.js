@@ -1,3 +1,4 @@
+// old method (oop)
 class Person {
     constructor(name) {
         this.name = name;
