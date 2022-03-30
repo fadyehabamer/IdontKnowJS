@@ -16,7 +16,7 @@ class Stack {
         this.items[this.count] = element;
         console.log(`Element ${element} pushed to the stack at index ${this.count}`);
         this.count++;
-        return this.count - 1; // 0
+        // return this.count - 1; // 0
     }
 
     //  Remove Element from the top of the stack And Return it
@@ -81,13 +81,13 @@ console.log(`Stack has ${myStack.size()} elements`);
 console.log(`stack has ${myStack.count} elements`);
 
 
-console.log( ` ${myStack.peek()} is the top element of the stack`); 
-console.log(`Stack is Empty? -> ${myStack.isEmpty()} `);
-console.log(`Stack has ${myStack.size()} elements`);
+// console.log(` ${myStack.peek()} is the top element of the stack`);
+// console.log(`Stack is Empty? -> ${myStack.isEmpty()} `);
+// console.log(`Stack has ${myStack.size()} elements`);
 
 
 
-myStack.print();
+// myStack.print();
 
-myStack.clear();
-myStack.print();
+// myStack.clear();
+// myStack.print();
