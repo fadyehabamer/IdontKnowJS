@@ -7,13 +7,13 @@
 // * =====================================================
 
 // * Shallow Copy
-// const a = {id : 1 ,name:'fady'}
-// const b = a
+const a = {id : 1 ,name:'fady'}
+const b = a
 
-// b.id=2
+b.id=2
 
-// console.log(a)
-// console.log(b)
+console.log(a)
+console.log(b)
 
 // * =====================================================
 
@@ -54,12 +54,12 @@
 // * Deep Copy (JSON.parse JSON.stringify)
 // * to solve nested levels 
 
-const a = {id : 1 ,name:'fady', address : { country:'egypt' }}
+// const a = {id : 1 ,name:'fady', address : { country:'egypt' }}
 
-const b = JSON.parse(JSON.stringify(a))
+// const b = JSON.parse(JSON.stringify(a))
 
-b.id=2
-b.address.country='usa'
+// b.id=2
+// b.address.country='usa'
 
-console.log(a)
-console.log(b)
+// console.log(a)
+// console.log(b)
